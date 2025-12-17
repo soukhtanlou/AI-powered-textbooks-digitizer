@@ -1,6 +1,7 @@
 
 import { CourseData } from "../types";
 import { getAsset } from "../utils/db";
+// @ts-ignore
 import JSZip from 'jszip';
 
 export const exportToZip = async (course: CourseData) => {
